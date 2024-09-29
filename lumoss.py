@@ -421,8 +421,7 @@ if __name__ == "__main__":
            os.system("start cmd")
            speak('command prompt opened sir ')
 
-        elif "last night" in query:
-           speak("sir , last night you are working on me , lumos , to optimise me adding some specific task to do.  ")
+       
 
 
         elif "rent " in query:
@@ -464,10 +463,7 @@ if __name__ == "__main__":
         elif "open github" in query:
             webbrowser.open("www.github.com")
 
-        elif "myself" in query:
-            speak("sir, you are my developer ")
-            speak("Your name is Sharif Alam ")
-            speak("you tell me earlier, you likes to play cricket ")
+        elif "deadline
 
         elif "open google" in query:
             speak("Sir, what should i search on google")
@@ -478,21 +474,9 @@ if __name__ == "__main__":
         elif "send message" in query:
             kit.sendwhatmsg_instantly("+919540718858", "this is testing protocol", 17, 56)
 
-        elif "deadline" in query:
-            speak("Sir , the deadline of your software engineering project is next month , the date is not fixed  yet  ")
+    
 
-        elif "idea" in query:
-            speak("sir , you can use me , lumos a Desktop Assistant  , as your project  ")
-
-        elif "thank you" in query:
-            speak("Pleasure is all mine sir....  ")
-
-
-        elif "to do list" in query:
-            speak("sir today is tuesday , your classes are scheduled from 8:45 ,  "
-                  "you have software engineering class from 8:45 to 10:45 , "
-                  "theory of computation class from 1:15 to 3:15 , " 
-                  "at night you have to work on me lumos from 9 to 2 . ")
+      
 
 
         # elif "face" in query:
